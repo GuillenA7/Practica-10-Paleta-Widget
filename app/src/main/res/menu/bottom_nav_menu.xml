@@ -9,9 +9,4 @@
         android:id="@+id/serviciosFragment"
         android:icon="@drawable/ic_services"
         android:title="Servicios" />
-
-    <item
-        android:id="@+id/calificacionFragment"
-        android:icon="@drawable/ic_rating"
-        android:title="Calificación" />
 </menu>

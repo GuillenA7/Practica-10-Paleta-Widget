@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="100dp">
+    android:padding="70dp">
 
     <ListView
         android:id="@+id/lvServicios"
@@ -23,4 +23,13 @@
         android:layout_height="wrap_content"
         android:text="Reproducir video"
         android:layout_gravity="center" />
+
+    <RatingBar
+        android:id="@+id/rbVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:layout_marginTop="16dp" />
 </LinearLayout>
